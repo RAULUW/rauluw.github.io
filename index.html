@@ -21,51 +21,27 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
         }
 
-        /* GIFs Laterales */
-        .side-gif {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 180px;
-            z-index: 0;
-            opacity: 0.6; /* Un poco transparentes para no distraer tanto */
-            border-radius: 8px;
+        .banner-container {
+            width: 100%;
+            max-height: 450px; /* Limita la altura máxima en pantallas grandes */
+            overflow: hidden;
+            border-bottom: 3px solid var(--accent-color);
         }
 
-        .gif-left {
-            left: 20px;
-        }
-
-        .gif-right {
-            right: 20px;
-        }
-
-        /* Ocultar GIFs en monitores pequeños o celulares para que no tapen el texto */
-        @media (max-width: 1350px) {
-            .side-gif {
-                display: none;
-            }
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
         }
 
         header {
             background-color: var(--panel-bg);
-            border-bottom: 3px solid var(--accent-color);
             padding: 2rem 1rem;
             text-align: center;
-            position: relative;
-            z-index: 1;
-        }
-
-        .banner-logo {
-            max-width: 250px;
-            height: auto;
-            margin-bottom: 1rem;
-            border-radius: 50%; /* Hace que el logo se vea redondo */
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-            border: 3px solid var(--accent-color);
+            border-bottom: 1px solid var(--border-color);
         }
 
         header h1 {
@@ -86,8 +62,6 @@
             max-width: 1000px;
             margin: 2rem auto;
             padding: 0 1rem;
-            position: relative;
-            z-index: 1; /* Mantiene el texto por encima de todo */
         }
 
         .section-card {
@@ -134,8 +108,6 @@
             margin-top: 3rem;
             color: #777;
             font-size: 0.9rem;
-            position: relative;
-            z-index: 1;
         }
 
         .chipy-tag {
@@ -154,26 +126,23 @@
 </head>
 <body>
 
-    <!-- Estos son los espacios para tus GIFs. Asegúrate de subir los archivos con estos nombres a GitHub -->
-    <img src="gif-izq.gif" class="side-gif gif-left" alt="GIF Militar Izquierda">
-    <img src="gif-der.gif" class="side-gif gif-right" alt="GIF Militar Derecha">
+    <div class="banner-container">
+        <img src="image_aeffdc.jpg" alt="Banner Federación Estado Fallido" class="banner-img">
+    </div>
 
     <header>
-        <!-- Tu imagen de banner insertada aquí -->
-        <img src="image_aeed14.jpg" alt="Logo La Federación" class="banner-logo">
         <h1>Federación Estado Fallido RP</h1>
         <p>Reglamento Oficial y Normativas de Operación</p>
     </header>
 
     <div class="container">
 
-        <!-- Sección A -->
         <div class="section-card">
             <h2 class="section-title">A. Normas Generales</h2>
             <ol class="rule-list">
                 <li><strong>1. Idioma:</strong> Al ser un servidor mexicano, el idioma oficial en rol es el español. Comunicarse en cualquier otro idioma para efectos de rol está prohibido.</li>
                 <li><strong>2. Metagaming (MG):</strong> Queda estrictamente prohibido utilizar información obtenida fuera del juego (Discord, directos, chats) para beneficio de tu personaje o el de un aliado dentro del servidor.</li>
-                <li><strong>3. Player Kill (PK):</strong> Al quedar inconsciente o morir en una escena, tu personaje olvida todo lo sucedido en ese evento específico. No puedes tomar represalias por algo que "no recuerdas".</li>
+                <li><strong>3. Player Kill (PK):</strong> Al quedar unconscious o morir en una escena, tu personaje olvida todo lo sucedido en ese evento específico. No puedes tomar represalias por algo que "no recuerdas".</li>
                 <li><strong>4. Character Kill (CK):</strong> Es la muerte definitiva del personaje. Solo puede ocurrir bajo mutuo acuerdo o por una sanción administrativa grave de lore. Implica pérdida total de progreso.</li>
                 <li><strong>5. Fail RP:</strong> Realizar acciones que rompan el realismo o la lógica del rol.</li>
                 <li><strong>6. Fear RP:</strong> Todos están obligados a simular y temer por perder la vida en situaciones de riesgo.</li>
@@ -181,7 +150,6 @@
             </ol>
         </div>
 
-        <!-- Sección B -->
         <div class="section-card">
             <h2 class="section-title">B. Reglas de Operación y Desarrollo del Rol</h2>
             <ol class="rule-list">
@@ -219,7 +187,6 @@
             </ol>
         </div>
 
-        <!-- Sección C y D -->
         <div class="section-card">
             <h2 class="section-title">C. Roles Administrativos y D. Sanciones</h2>
             <ol class="rule-list">
@@ -231,7 +198,6 @@
             </ol>
         </div>
 
-        <!-- Sección E -->
         <div class="section-card">
             <h2 class="section-title">E. Armamento</h2>
             <ol class="rule-list">
@@ -254,7 +220,6 @@
             </ol>
         </div>
 
-        <!-- Sección F -->
         <div class="section-card">
             <h2 class="section-title">F. Vehículos y Helicópteros</h2>
             <ol class="rule-list">
@@ -273,7 +238,6 @@
             </ol>
         </div>
 
-        <!-- Sección G -->
         <div class="section-card">
             <h2 class="section-title">G. Equipamiento</h2>
             <ol class="rule-list">
@@ -284,13 +248,12 @@
             </ol>
         </div>
 
-        <!-- Sección H -->
         <div class="section-card">
             <h2 class="section-title">H. Moderación de uso de GM</h2>
             <ol class="rule-list">
                 <li><strong>1 y 2. Límite de GM:</strong> Un GM por facción en partida. GM adicional requiere autorización.</li>
                 <li><strong>4. Entidades:</strong> Más de 5 entidades en una zona deben agruparse en una CAPA.</li>
-                <li><strong>5 y 6. Elementos especiales:</strong> Vehículos especiales, bombas, rayos y destrucción masiva solo por administración.</li>
+                <li><strong>5 y 6. Elementos especiales:</strong> Vehículos especiales, bombas, rayos y destrucción masiva solo por administration.</li>
                 <li><strong>7 y 8. Poderes de GM:</strong> Autorizados a kickear/banear por spawnkill o consenso colectivo. Prohibido tirar rayos/hemorragias.</li>
                 <li><strong>9. Teletransporte:</strong> Prohibido hacerse TP a zonas de combate o ventajas tácticas.</li>
                 <li><strong>11 y 12. Mantenimiento:</strong> Apoyar con vehículos y borrar abandonados. Máximo 3 carros estacionados por BASE.</li>
@@ -298,7 +261,6 @@
             </ol>
         </div>
 
-        <!-- Sección I -->
         <div class="section-card">
             <h2 class="section-title">I. Normativa de bases de facción</h2>
             <ol class="rule-list">
@@ -310,7 +272,6 @@
             </ol>
         </div>
 
-        <!-- Sección J -->
         <div class="section-card">
             <h2 class="section-title">J. Normativa de operación de rol de civiles</h2>
             <ol class="rule-list">
@@ -326,7 +287,6 @@
             </ol>
         </div>
 
-        <!-- Sección K -->
         <div class="section-card">
             <h2 class="section-title">K. Reglamento de reclutamiento</h2>
             <ol class="rule-list">
