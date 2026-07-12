@@ -21,6 +21,33 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* GIFs Laterales */
+        .side-gif {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 180px;
+            z-index: 0;
+            opacity: 0.6; /* Un poco transparentes para no distraer tanto */
+            border-radius: 8px;
+        }
+
+        .gif-left {
+            left: 20px;
+        }
+
+        .gif-right {
+            right: 20px;
+        }
+
+        /* Ocultar GIFs en monitores pequeños o celulares para que no tapen el texto */
+        @media (max-width: 1350px) {
+            .side-gif {
+                display: none;
+            }
         }
 
         header {
@@ -28,6 +55,17 @@
             border-bottom: 3px solid var(--accent-color);
             padding: 2rem 1rem;
             text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .banner-logo {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 1rem;
+            border-radius: 50%; /* Hace que el logo se vea redondo */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            border: 3px solid var(--accent-color);
         }
 
         header h1 {
@@ -48,6 +86,8 @@
             max-width: 1000px;
             margin: 2rem auto;
             padding: 0 1rem;
+            position: relative;
+            z-index: 1; /* Mantiene el texto por encima de todo */
         }
 
         .section-card {
@@ -57,7 +97,7 @@
             border-radius: 4px;
             padding: 1.5rem 2rem;
             margin-bottom: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
         }
 
         .section-title {
@@ -94,6 +134,8 @@
             margin-top: 3rem;
             color: #777;
             font-size: 0.9rem;
+            position: relative;
+            z-index: 1;
         }
 
         .chipy-tag {
@@ -101,7 +143,6 @@
             font-weight: bold;
         }
 
-        /* Estilos para descripciones extra dentro de las reglas */
         .note {
             display: block;
             font-size: 0.9rem;
@@ -113,13 +154,20 @@
 </head>
 <body>
 
+    <!-- Estos son los espacios para tus GIFs. Asegúrate de subir los archivos con estos nombres a GitHub -->
+    <img src="gif-izq.gif" class="side-gif gif-left" alt="GIF Militar Izquierda">
+    <img src="gif-der.gif" class="side-gif gif-right" alt="GIF Militar Derecha">
+
     <header>
+        <!-- Tu imagen de banner insertada aquí -->
+        <img src="image_aeed14.jpg" alt="Logo La Federación" class="banner-logo">
         <h1>Federación Estado Fallido RP</h1>
         <p>Reglamento Oficial y Normativas de Operación</p>
     </header>
 
     <div class="container">
 
+        <!-- Sección A -->
         <div class="section-card">
             <h2 class="section-title">A. Normas Generales</h2>
             <ol class="rule-list">
@@ -133,6 +181,7 @@
             </ol>
         </div>
 
+        <!-- Sección B -->
         <div class="section-card">
             <h2 class="section-title">B. Reglas de Operación y Desarrollo del Rol</h2>
             <ol class="rule-list">
@@ -170,6 +219,7 @@
             </ol>
         </div>
 
+        <!-- Sección C y D -->
         <div class="section-card">
             <h2 class="section-title">C. Roles Administrativos y D. Sanciones</h2>
             <ol class="rule-list">
@@ -181,6 +231,7 @@
             </ol>
         </div>
 
+        <!-- Sección E -->
         <div class="section-card">
             <h2 class="section-title">E. Armamento</h2>
             <ol class="rule-list">
@@ -203,6 +254,7 @@
             </ol>
         </div>
 
+        <!-- Sección F -->
         <div class="section-card">
             <h2 class="section-title">F. Vehículos y Helicópteros</h2>
             <ol class="rule-list">
@@ -221,6 +273,7 @@
             </ol>
         </div>
 
+        <!-- Sección G -->
         <div class="section-card">
             <h2 class="section-title">G. Equipamiento</h2>
             <ol class="rule-list">
@@ -231,6 +284,7 @@
             </ol>
         </div>
 
+        <!-- Sección H -->
         <div class="section-card">
             <h2 class="section-title">H. Moderación de uso de GM</h2>
             <ol class="rule-list">
@@ -244,6 +298,7 @@
             </ol>
         </div>
 
+        <!-- Sección I -->
         <div class="section-card">
             <h2 class="section-title">I. Normativa de bases de facción</h2>
             <ol class="rule-list">
@@ -255,6 +310,7 @@
             </ol>
         </div>
 
+        <!-- Sección J -->
         <div class="section-card">
             <h2 class="section-title">J. Normativa de operación de rol de civiles</h2>
             <ol class="rule-list">
@@ -270,6 +326,7 @@
             </ol>
         </div>
 
+        <!-- Sección K -->
         <div class="section-card">
             <h2 class="section-title">K. Reglamento de reclutamiento</h2>
             <ol class="rule-list">
