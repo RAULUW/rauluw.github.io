@@ -23,11 +23,25 @@
             padding: 0;
         }
 
+        .banner-container {
+            width: 100%;
+            max-height: 450px;
+            overflow: hidden;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
         header {
             background-color: var(--panel-bg);
-            border-bottom: 3px solid var(--accent-color);
             padding: 2rem 1rem;
             text-align: center;
+            border-bottom: 1px solid var(--border-color);
         }
 
         header h1 {
@@ -57,7 +71,7 @@
             border-radius: 4px;
             padding: 1.5rem 2rem;
             margin-bottom: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
         }
 
         .section-title {
@@ -77,7 +91,7 @@
 
         .rule-list li {
             margin-bottom: 1rem;
-            padding: 10px;
+            padding: 15px;
             background-color: rgba(255, 255, 255, 0.03);
             border-radius: 3px;
         }
@@ -100,17 +114,13 @@
             color: var(--accent-color);
             font-weight: bold;
         }
-
-        .note {
-            display: block;
-            font-size: 0.9rem;
-            color: #aaa;
-            margin-top: 5px;
-            font-style: italic;
-        }
     </style>
 </head>
 <body>
+
+    <div class="banner-container">
+        <img src="image_aeffdc.jpg" alt="Banner Federación Estado Fallido" class="banner-img">
+    </div>
 
     <header>
         <h1>Federación Estado Fallido RP</h1>
@@ -133,7 +143,7 @@
         </div>
 
         <div class="section-card">
-            <h2 class="section-title">B. Reglas de Operación y Desarrollo del Rol</h2>
+            <h2 class="section-title">B. Reglas de operación y desarrollo del rol.</h2>
             <ol class="rule-list">
                 <li><strong>1.</strong> La comunicación por voz es fundamental y obligatoria para poder participar en este servidor[cite: 2]. Si la falta de un micrófono activo afecta el rol y experiencia de los demás jugadores existirá una sanción[cite: 2].</li>
                 <li><strong>2. Restricción de Retorno a la Zona:</strong> Si mueres en un enfrentamiento o escena de rol, no puedes regresar al área (ni acercarte a ver) hasta que el rol haya finalizado por completo[cite: 2]. Objetivo: Evitar "batallas de horas" en el mismo punto y permitir que el rol fluya sin refuerzos infinitos de gente que ya murió[cite: 2].</li>
@@ -181,9 +191,12 @@
         <div class="section-card">
             <h2 class="section-title">D. Sistema de Sanciones y Tickets</h2>
             <ol class="rule-list">
-                <li>Para mantener la comunidad de Milsim y RP bajo control, el sistema de soporte será el pilar del servidor: Prioridad de Tickets: Cualquier conflicto se resuelve vía ticket en Discord, aportando pruebas (clips/fotos)[cite: 2]. No se discute en el chat global del juego[cite: 2].</li>
-                <li>Valor de la Sanción: Las sanciones son acumulativas[cite: 2]. Ignorar el reglamento de "No RDM" o el retorno a zona resultará en ban temporal inmediato[cite: 2].</li>
-                <li>Respeto al Staff: Las decisiones administrativas son finales[cite: 2]. El uso de tickets es para reportar o apelar por una sanción[cite: 2].</li>
+                <li>Para mantener la comunidad de Milsim y RP bajo control, el sistema de soporte será el pilar del servidor: Prioridad de Tickets: Cualquier conflicto se resuelve vía ticket en Discord, aportando pruebas (clips/fotos)[cite: 2].</li>
+                <li>No se discute en el chat global del juego[cite: 2].</li>
+                <li>Valor de la Sanción: Las sanciones son acumulativas[cite: 2].</li>
+                <li>Ignorar el reglamento de "No RDM" o el retorno a zona resultará en ban temporal inmediato[cite: 2].</li>
+                <li>Respeto al Staff: Las decisiones administrativas son finales[cite: 2].</li>
+                <li>El uso de tickets es para reportar o apelar por una sanción[cite: 2].</li>
             </ol>
         </div>
 
@@ -199,7 +212,7 @@
                 <li><strong>7.</strong> Silenciadores de uso exclusivo para 5 integrantes por facción (autorizados en lista)[cite: 2].</li>
                 <li><strong>8.</strong> Granadas de uso exclusivo para lideres de facción[cite: 2]. Máximo 2[cite: 2].</li>
                 <li><strong>9.</strong> Bomba de humo máximo 4 por persona[cite: 2].</li>
-                <li><strong>10.</strong> Balas AP: Líder de facción full AP, Sublíder 4 cargadores AP, Elementos especiales (5 y en lista) 2 cargador AP[cite: 2]. Prohibido el uso de cargadores AP para el resto de la facción[cite: 2].</li>
+                <li><strong>10.</strong> Balas AP:<br>Líder de facción full AP<br>Sublíder 4 cargadores AP<br>Elementos especiales (5 y en lista) 2 cargador AP<br>Prohibido el uso de cargadores AP para el resto de la facción[cite: 2].</li>
                 <li><strong>11.</strong> Máximo 210 balas por fusil de asalto (7 cargadores de 30 balas), no se regula la cantidad de cargadores para arma corta[cite: 2].</li>
                 <li><strong>12.</strong> Prohibido el uso de minas[cite: 2].</li>
                 <li><strong>13.</strong> Uso de C4 exclusivo para misiones especiales autorizadas por los administradores[cite: 2].</li>
@@ -215,7 +228,7 @@
             <h2 class="section-title">F. Vehículos y Helicópteros</h2>
             <ol class="rule-list">
                 <li><strong>1.</strong> Blindados: Cada facción tiene permitido desplegar 2 vehículos blindados de manera simultánea[cite: 2]. (Escualo con minigun vale x2 y su tiempo de redespliegue es de 2 hrs)[cite: 2].</li>
-                <li><strong>2.</strong> En caso de destrucción o perdida tendrán un tiempo de espera de 1:00 hrs para poder desplegar estas unidades otra vez[cite: 2].</li>
+                <li><strong>2.</strong> En caso de destrucción o perdida tendrán un tiempo de espera de0 1:00 hrs para poder desplegar estas unidades otra vez[cite: 2].</li>
                 <li><strong>3.</strong> En caso de robo de una unidad blindada podrá hacer uso de esta unidad solo huir o para trasladarse a su base para recargar y tomar otro vehículo[cite: 2].</li>
                 <li><strong>4.</strong> Cada facción de GOBIERNO tiene permitido desplegar 1 helicóptero[cite: 2].</li>
                 <li><strong>5.</strong> En caso de destrucción o perdida tendrán un tiempo de espera de 1:00 hrs para poder desplegar helicóptero otra vez[cite: 2].</li>
@@ -247,7 +260,7 @@
         </div>
 
         <div class="section-card">
-            <h2 class="section-title">H. Moderación de uso de GM</h2>
+            <h2 class="section-title">H. Moderación de uso de GM.</h2>
             <ol class="rule-list">
                 <li><strong>1.</strong> Por facción deberá de haber un GM en la partida en curso[cite: 2].</li>
                 <li><strong>2.</strong> Un GM adicional por facción deberá ser autorizado por administración[cite: 2].</li>
@@ -261,13 +274,13 @@
                 <li><strong>10.</strong> Solo GM de confianza podrán usar la opción de borrar gente con una razón justificada y respaldada con clip[cite: 2]. De lo contrario será abuso de GM[cite: 2].</li>
                 <li><strong>11.</strong> TODOS los GM están obligados a apoyar a TODAS las facciones con vehículos en las bases, así como borrar los que estén abandonados, destruidos o fuera de rol[cite: 2].</li>
                 <li><strong>12.</strong> No debe haber mas de 3 carros estacionados por BASE[cite: 2].</li>
-                <li><strong>13.</strong> Abusar de cualquier función del GM afectando la experiencia de los jugadores y el incumplimiento de esta norma derivara sanciones como perder el derecho de uso de GM o BAN[cite: 2].</li>
+                <li><strong>13.</strong> Abusar de cualquier función del GM afectando la experiencia de los jugadores y el incumplimiento de esta norma derivara sanciones como perder el derecho de uso de GM BAN[cite: 2].</li>
                 <li><strong>14.</strong> Esta prohibido dejar al alcance cajas de los jugadores cajas de arsenal desbloqueado con acceso a armas restringidas[cite: 2].</li>
             </ol>
         </div>
 
         <div class="section-card">
-            <h2 class="section-title">I. Normativa de bases de facción</h2>
+            <h2 class="section-title">I. Normativa de bases de facción.</h2>
             <ol class="rule-list">
                 <li><strong>1.</strong> Los ataques a bases contrarias están permitidos solo si un rol previo o justificación de peso lo respaldan[cite: 2].</li>
                 <li><strong>2.</strong> El encargado o GM de los atacantes deberá notificar y coordinarse con el encargado o GM de los que defienden para organizar a su gente[cite: 2]. Esto deberán de hacerlo de forma privada sin que mas miembros de ambas facciones se enteren directamente para no arruinar la experiencia del rol o la misión[cite: 2].</li>
@@ -280,7 +293,7 @@
         </div>
 
         <div class="section-card">
-            <h2 class="section-title">J. Normativa de operación de rol de civiles</h2>
+            <h2 class="section-title">J. Normativa de operación de rol de civiles.</h2>
             <ol class="rule-list">
                 <li><strong>Definición:</strong> El rol de civil no es un estado neutro ni de "libre albedrío"[cite: 2]. Es un rol activo de simulación que representa a un ciudadano promedio de la región[cite: 2]. Todo jugador bajo este rol está obligado a construir un trasfondo lógico para su personaje (oficio, procedencia, metas legítimas) y actuar bajo las normas de convivencia de una sociedad civil[cite: 2].</li>
                 <li><strong>1.</strong> Como civil, careces de entrenamiento táctico, militar o de resistencia psicológica a la tortura[cite: 2]. Tu prioridad absoluta ante cualquier interacción es sobrevivir[cite: 2].</li>
@@ -298,7 +311,7 @@
         </div>
 
         <div class="section-card">
-            <h2 class="section-title">K. Reglamento de reclutamiento</h2>
+            <h2 class="section-title">K. Reglamento de reclutamiento.</h2>
             <ol class="rule-list">
                 <li><strong>1.</strong> Queda estrictamente prohibido que los altos mandos o miembros de una facción entreguen accesorios pesados, ventajas tácticas o armamento avanzado que estén limitados por el reglamento a los nuevos integrantes de manera inmediata[cite: 2].</li>
                 <li><strong>2.</strong> Todo jugador que ingrese a una nueva facción deberá pasar por un periodo de prueba y adaptación de 14 días naturales (2 semanas)[cite: 2].</li>
