@@ -1,1 +1,293 @@
-# rauluw.github.io
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normativas: Federación Estado Fallido RP</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --panel-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #556b2f; /* Dark Olive Green */
+            --accent-hover: #6b8e23;
+            --border-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--panel-bg);
+            border-bottom: 3px solid var(--accent-color);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+
+        header p {
+            color: #aaa;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section-card {
+            background-color: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-left: 5px solid var(--accent-color);
+            border-radius: 4px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .section-title {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .rule-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .rule-list li {
+            margin-bottom: 1rem;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.03);
+            border-radius: 3px;
+        }
+
+        .rule-list li strong {
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--panel-bg);
+            border-top: 1px solid var(--border-color);
+            margin-top: 3rem;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        .chipy-tag {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Estilos para descripciones extra dentro de las reglas */
+        .note {
+            display: block;
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-top: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Federación Estado Fallido RP</h1>
+        <p>Reglamento Oficial y Normativas de Operación</p>
+    </header>
+
+    <div class="container">
+
+        <div class="section-card">
+            <h2 class="section-title">A. Normas Generales</h2>
+            <ol class="rule-list">
+                <li><strong>1. Idioma:</strong> Al ser un servidor mexicano, el idioma oficial en rol es el español. Comunicarse en cualquier otro idioma para efectos de rol está prohibido.</li>
+                <li><strong>2. Metagaming (MG):</strong> Queda estrictamente prohibido utilizar información obtenida fuera del juego (Discord, directos, chats) para beneficio de tu personaje o el de un aliado dentro del servidor.</li>
+                <li><strong>3. Player Kill (PK):</strong> Al quedar inconsciente o morir en una escena, tu personaje olvida todo lo sucedido en ese evento específico. No puedes tomar represalias por algo que "no recuerdas".</li>
+                <li><strong>4. Character Kill (CK):</strong> Es la muerte definitiva del personaje. Solo puede ocurrir bajo mutuo acuerdo o por una sanción administrativa grave de lore. Implica pérdida total de progreso.</li>
+                <li><strong>5. Fail RP:</strong> Realizar acciones que rompan el realismo o la lógica del rol.</li>
+                <li><strong>6. Fear RP:</strong> Todos están obligados a simular y temer por perder la vida en situaciones de riesgo.</li>
+                <li><strong>7. Convivencia:</strong> Para mejor convivencia está prohibido cualquier situación de discriminación o toxicidad fuera de rol.</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">B. Reglas de Operación y Desarrollo del Rol</h2>
+            <ol class="rule-list">
+                <li><strong>1. Comunicación:</strong> La comunicación por voz es fundamental y obligatoria. Si la falta de un micrófono activo afecta el rol y experiencia, existirá una sanción.</li>
+                <li><strong>2. Restricción de Retorno a la Zona:</strong> Si mueres en un enfrentamiento, no puedes regresar al área hasta que el rol haya finalizado por completo. <span class="note">Objetivo: Evitar "batallas de horas" y permitir que el rol fluya sin refuerzos infinitos.</span></li>
+                <li><strong>3. No RDM (Random Deathmatch):</strong> Está prohibido atacar o disparar a otro jugador sin un rol previo de peso o justificación sólida. <span class="note">Nota: No se aceptan motivos triviales ("me miró feo"). Toda balacera debe tener un detonante claro.</span></li>
+                <li><strong>4. Revisión de Vehículos:</strong> Prohibido revisar cajuelas sin rol previo (Narco/Gobierno). Debe ser justificado por sospecha razonable o autorización.</li>
+                <li><strong>5. Evasión:</strong> Está prohibido suicidarse durante un combate para evadir el arresto/secuestro.</li>
+                <li><strong>6. Desconexión:</strong> Está prohibido desconectarse intencionalmente en medio de un Rol para evitar la muerte, arresto o secuestro.</li>
+                <li><strong>7. Rendición por Desventaja:</strong> Cuando te encuentras en desventaja de 1 a 2 estás obligado a rendirte siempre y cuando te tengan ubicado, rodeado, sin municiones, herido o no te encuentres en un vehículo blindado.</li>
+                <li><strong>8. Rendición tras ser reanimado:</strong> Si fuiste noqueado/reanimado por otro jugador de una facción contraria estás obligado a rendirte. No puedes defenderte ni huir.</li>
+                <li><strong>9. Acciones durante arresto (Sin esposas):</strong> Si no usan esposas, puedes curarte, hablar por radio, usar el mapa o tomar cosas del suelo, siempre que no frustres el arresto (huir, moverte por todos lados, usar armas).</li>
+                <li><strong>10. Rescate:</strong> Si alguien frustra tu arresto eliminando al menos a 1 captor, puedes defenderte y salvarte, a menos que hayan usado un ZIPTIE. Si tienes ZIPTIE, solo puedes tirarte al suelo.</li>
+                <li><strong>11. Vehículos Blindados:</strong> Si estás a bordo y el vehículo puede moverse, no estás obligado a rendirte. Para obligar la rendición, el vehículo debe estar bloqueado sin posibilidad de moverse.</li>
+                <li><strong>12. Motivos de revisión:</strong> Portar granada de humo, piernera, medicina o mochila táctica NO es motivo de arresto. Solo aplica revisión personal.</li>
+                <li><strong>13. Interacción PvE:</strong> El respeto a las zonas seguras y eventos narrativos contra el entorno es obligatorio.</li>
+                <li><strong>14. Identificación:</strong> Está prohibido el reconocimiento de jugadores si no han interactuado en esa vida. Si llevan accesorios que tapen el rostro, no es posible identificarlos.</li>
+                <li><strong>15. Tiempos de arresto/secuestro:</strong> Máximo 30 min (sujeto a gravedad). Si hay rol activo, puede extenderse hasta 1 hr. Si se deja botado al jugador, se respeta el máximo de 30 min.</li>
+                <li><strong>16. Desconexión en arresto:</strong> Si el capturado debe salir del juego, su rol queda pendiente y se cumple al regresar.</li>
+                <li><strong>17. Inicio de tiempo:</strong> El tiempo empieza cuando la persona es colocada en una celda o cuarto seguro. Las transferencias entre facciones no reinician ni añaden tiempo.</li>
+                <li><strong>18. Retraso de captura:</strong> Si el capturado dura más de 20 minutos sin ser depositado en una celda, el tiempo se toma como iniciado desde la captura.</li>
+                <li><strong>19. Saqueo:</strong> Saquear cuerpos está permitido.</li>
+                <li><strong>20. Armas especiales saqueadas:</strong> Puedes usarlas EN EL MOMENTO y en esa vida. Si regresas a base sin usarla o pasan 10 min, debes deshacerte de ella.</li>
+                <li><strong>21. Curación:</strong> Se puede saquear y portar todo el equipo de curación indiscriminadamente.</li>
+                <li><strong>22. Munición:</strong> Saquear munición está permitido, máximo 7 cargadores útiles en tu persona.</li>
+                <li><strong>23. Cargadores AP:</strong> Solo permitido saquear 2 cargadores AP sin sobrepasar los 7 cargadores totales.</li>
+                <li><strong>24. Reinicio de servidor:</strong> El secuestro se retoma solo si la persona ya era trasladada o llevaba 10 min o menos en la base de destino.</li>
+                <li><strong>25. Civiles:</strong> Matar civiles desarmados o que no representen amenaza está prohibido.</li>
+                <li><strong>26. Hiperactividad:</strong> Moverse en círculos o como loco en un rol es Fail RP.</li>
+                <li><strong>27. Fuego amigo táctico:</strong> Matar a un compañero derribado para evitar su captura es no valorar la vida y es sancionable.</li>
+                <li><strong>28. Fuego amigo en cautiverio:</strong> Matar a un compañero secuestrado en la calle o base también es sancionable.</li>
+                <li><strong>29. Sanción por fuego amigo:</strong> Los jugadores muertos bajo las reglas 27 y 28 deben quedarse en base 20 min de castigo. Sanciones graves por reincidencia.</li>
+                <li><strong>30. Abuso de blindaje:</strong> Prohibido usar blindadas para intentar atropellar repetidamente o no bajarse al estar inmovilizado. (Solo un intento de atropello permitido).</li>
+                <li><strong>31. Autoridad en MONTI:</strong> Gobierno tiene indicación de disparar a discreción a civiles armados para asegurar la paz (Guardar evidencia).</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">C. Roles Administrativos y D. Sanciones</h2>
+            <ol class="rule-list">
+                <li><strong>Rol Normal:</strong> Supervivencia y dominio en el "Estado Fallido".</li>
+                <li><strong>Rol Administrativo:</strong> Intervención del staff para eventos de lore o soporte. Las instrucciones de los administradores son ley.</li>
+                <li><strong>Sistema de Tickets:</strong> Todo conflicto se resuelve vía ticket en Discord aportando pruebas. No se discute en el chat global.</li>
+                <li><strong>Sanciones:</strong> Son acumulativas. Ignorar el "No RDM" o el retorno a zona resulta en ban temporal inmediato.</li>
+                <li><strong>Staff:</strong> Las decisiones administrativas son finales.</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">E. Armamento</h2>
+            <ol class="rule-list">
+                <li><strong>1. Miras x4:</strong> Máximo 5 personas por facción (autorizados en lista).</li>
+                <li><strong>2. Miras x3:</strong> Máximo 5 (10 para gobierno) personas por facción (autorizados en lista).</li>
+                <li><strong>3. Rifles anti materia:</strong> (Barret con mira max x4, sin silenciador). Máximo 1 persona por facción con 4 cargadores AP (Prohibido APIT/explosivas). Autorizado segunda arma principal con 3 cargadores.</li>
+                <li><strong>4. Tirador designado:</strong> DMR/Francotirador (Mira x6). 1 por facción con 7 cargadores (NO AP). Segunda arma principal con 2 cargadores.</li>
+                <li><strong>5. Lanza granadas:</strong> 3 granadas 40 mm. Solo 1 por facción.</li>
+                <li><strong>6. LMG / Ametralladoras:</strong> 1 por facción, máximo 2 cargadores, uso de mira x4.</li>
+                <li><strong>7. Silenciadores:</strong> Uso exclusivo para 5 integrantes por facción.</li>
+                <li><strong>8. Granadas:</strong> Exclusivo para líderes de facción. Máximo 2.</li>
+                <li><strong>9. Humo:</strong> Máximo 4 por persona.</li>
+                <li><strong>10. Balas AP:</strong> Líder (full AP), Sublíder (4 cargadores), Elementos especiales (2 cargadores). Prohibido para el resto.</li>
+                <li><strong>11. Límite de balas:</strong> Máximo 210 balas por fusil de asalto. Arma corta no regulada.</li>
+                <li><strong>12. Minas:</strong> Prohibidas.</li>
+                <li><strong>13. C4 y JAVELIN:</strong> Uso exclusivo para misiones especiales autorizadas por administradores.</li>
+                <li><strong>15. Líderes:</strong> (1ero y 2do al mando) pueden usar mira x3, x4 o silenciador sin estar en lista de los 5.</li>
+                <li><strong>16. Civiles:</strong> Prohibido llevar armas especiales y accesorios de facciones oficiales.</li>
+                <li><strong>17 y 18. Distribución especial:</strong> Gobierno (2 Barret, 2 LMG). Sacar-H limitada a 4 para gobierno y 2 para crimen (considerada DMR).</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">F. Vehículos y Helicópteros</h2>
+            <ol class="rule-list">
+                <li><strong>1. Blindados:</strong> 2 vehículos blindados simultáneos por facción. (Escualo con minigun vale x2, redespliegue 2 hrs).</li>
+                <li><strong>2. Tiempo de espera:</strong> En caso de destrucción, espera de 1:00 hr para redesplegar.</li>
+                <li><strong>3. Robo de blindado:</strong> Solo usar para huir o trasladarse a base a cambiar de vehículo.</li>
+                <li><strong>4. Helicópteros:</strong> GOBIERNO puede desplegar 1. Espera de 1:00 hr tras destrucción.</li>
+                <li><strong>6. Lanza misiles aéreos:</strong> Despliegue exclusivo de administradores.</li>
+                <li><strong>7 y 8. Modelos de helicópteros:</strong> Artillados exclusivos para Marina y SEDENA. Ministeriales y SSPC solo transporte civil.</li>
+                <li><strong>10. Crimen organizado:</strong> Helicópteros civiles con previa autorización del staff.</li>
+                <li><strong>11. Spawn ajeno:</strong> Estrictamente prohibido spawnear carros de facciones contrarias.</li>
+                <li><strong>12. Vehículos Monstruo:</strong> Fuego a discreción por parte del gobierno contra estos.</li>
+                <li><strong>13 y 15. Unidades G63 y Expedition:</strong> Despliegue solo por líderes de facción (1 unidad cada 2 horas). Expedition blanca exclusiva para líder de Gobierno.</li>
+                <li><strong>14. Horarios Monstruo:</strong> Solo fin de semana (Viernes 17:00 a Lunes 10:00 am).</li>
+                <li><strong>16. Camionetas encubiertas:</strong> RAM y DENALI blindadas limitadas para narcos (aplica regla de alto blindaje).</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">G. Equipamiento</h2>
+            <ol class="rule-list">
+                <li><strong>1 y 2. Modificaciones:</strong> Prohibido modificar o añadir cosas al equipamiento estándar sin autorización de liderazgo.</li>
+                <li><strong>3 y 4. Equipo ajeno:</strong> Prohibido guardar equipo de facciones opuestas. Solo se usa equipo ajeno obtenido en acción, en esa misma vida.</li>
+                <li><strong>5 y 6. ATAK y NVG:</strong> Solo 5 personas máximo por facción de GOBIERNO.</li>
+                <li><strong>7. Uniformes negros:</strong> Exclusivos de GOBIERNO. El crimen puede llevar piezas negras pero obligatoriamente en contraste con otros colores/camuflajes.</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">H. Moderación de uso de GM</h2>
+            <ol class="rule-list">
+                <li><strong>1 y 2. Límite de GM:</strong> Un GM por facción en partida. GM adicional requiere autorización.</li>
+                <li><strong>4. Entidades:</strong> Más de 5 entidades en una zona deben agruparse en una CAPA.</li>
+                <li><strong>5 y 6. Elementos especiales:</strong> Vehículos especiales, bombas, rayos y destrucción masiva solo por administración.</li>
+                <li><strong>7 y 8. Poderes de GM:</strong> Autorizados a kickear/banear por spawnkill o consenso colectivo. Prohibido tirar rayos/hemorragias.</li>
+                <li><strong>9. Teletransporte:</strong> Prohibido hacerse TP a zonas de combate o ventajas tácticas.</li>
+                <li><strong>11 y 12. Mantenimiento:</strong> Apoyar con vehículos y borrar abandonados. Máximo 3 carros estacionados por BASE.</li>
+                <li><strong>14. Arsenal:</strong> Prohibido dejar cajas desbloqueadas con armas restringidas al alcance.</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">I. Normativa de bases de facción</h2>
+            <ol class="rule-list">
+                <li><strong>1. Ataques:</strong> Permitidos solo con rol previo o justificación de peso.</li>
+                <li><strong>2. Coordinación:</strong> Los GM/encargados de ambos bandos deben notificarse en privado.</li>
+                <li><strong>3 y 4. Restricciones de defensa:</strong> La base atacada se defiende con lo disponible (sin refuerzos). Se debe cancelar el Spawn de la base defensora durante el ataque coordinado.</li>
+                <li><strong>5. Defensores eliminados:</strong> Hacen spawn en otra base y esperan en silencio.</li>
+                <li><strong>7. Invasión:</strong> Ingresar sin autorización es amenaza; se autoriza fuego a discreción o secuestro sin mediar palabra.</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">J. Normativa de operación de rol de civiles</h2>
+            <ol class="rule-list">
+                <li><strong>Definición:</strong> Es un rol activo de simulación de ciudadano promedio. Todo jugador debe tener un trasfondo lógico.</li>
+                <li><strong>1 y 2. Supervivencia:</strong> Si te apuntan, levanta las manos, coopera y dialoga. Careces de entrenamiento militar.</li>
+                <li><strong>3. Actos Prohibidos:</strong> Correr en zigzag, sacar arma encañonado, insultar captores, tirarse de vehículos en movimiento.</li>
+                <li><strong>4. Conducción:</strong> Respetar señales. Conducir campo traviesa con sedanes es acción hostil.</li>
+                <li><strong>5. Fenómeno Civil-Táctico:</strong> Hostil poseer uniformes camuflados, portaplacas, pasamontañas o equipo táctico en zonas urbanas.</li>
+                <li><strong>6 y 7. Armamento:</strong> Prohibido uso de rifles de asalto y explosivos. Solo portación oculta de arma corta si hay justificación o licencia.</li>
+                <li><strong>8. Legítima Defensa:</strong> Solo se desenfunda en peligro inminente sin opción de escape. Civiles no patrullan ni limpian zonas.</li>
+                <li><strong>9 y 10. Facciones:</strong> Ningún civil puede simular ser del Estado o Crimen sin estar en las listas formales. Prohibido secuestrar o extorsionar como civil.</li>
+                <li><strong>11. Intervención:</strong> La única acción legítima ante un crimen es huir y reportar. Intervenir armadamente será sancionado.</li>
+            </ol>
+        </div>
+
+        <div class="section-card">
+            <h2 class="section-title">K. Reglamento de reclutamiento</h2>
+            <ol class="rule-list">
+                <li><strong>1. Equipo a novatos:</strong> Prohibido entregar accesorios pesados o armas avanzadas a nuevos integrantes de inmediato.</li>
+                <li><strong>2 y 3. Periodo de prueba:</strong> 14 días naturales (2 semanas) portando solo equipamiento básico.</li>
+                <li><strong>5. Cambio de facción:</strong> Entrar a una nueva facción congela el progreso por 14 días (sin rangos ni mando, empezando desde abajo).</li>
+                <li><strong>6. Nuevos jugadores:</strong> Tienen 24 horas como "aspirante/invitado" para probar facciones antes de tomar una decisión definitiva.</li>
+                <li><strong>7 y 8. Notificación:</strong> Obligación de notificar al Staff al reclutar a exmiembros de otras facciones para validación de tiempos.</li>
+                <li><strong>9. Sanción por Omisión:</strong> Sanción a la facción completa si no se avisa a la administración.</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Documento Oficial de Normativas.</p>
+        <p class="chipy-tag">Sistema Web desarrollado por Chipymex</p>
+    </footer>
+
+</body>
+</html>
