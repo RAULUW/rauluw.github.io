@@ -309,7 +309,7 @@
                 <li>7. Cuando una facción vaya a dar de alta a un jugador que ya haya pertenecido formalmente a otra facción del servidor, los líderes de la facción receptora tienen la obligación estricta de notificar a la Moderación y Administración antes de integrarlo a sus filas.</li>
                 <li>8. Esta notificación es puramente informativa, con el único fin de que el Staff esté enterado, valide los tiempos de congelamiento de rango y mantenga el orden en los censos.</li>
                 <li>9. Sanción por Omisión: Si una facción recluta y mete a sus filas a un exmiembro de otra facción sin haber avisado previamente a la administración por medio de un ticket o canal oficial, la facción completa recibirá una Sanción.</li>
-                <li>LES FADO FALLIDO RP/PVE THARCO RIELENLA</li>
+                <li>LEER BIEN EL REGLAMENTO</li>
             </ol>
         </div>
 
